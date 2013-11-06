@@ -1,0 +1,25 @@
+body {
+	background-color: rgb(128, 128, 128);
+}
+
+* body .template {
+	display: none;
+}
+
+.colorswatch {
+	width: 100px;
+	height: 80px;
+	display: inline-block;
+	margin: 5px;
+}
+
+.colorswatch .color {
+	width: 30px;
+	height: 60px;
+	display: inline-block;
+}
+
+.colorswatch .label {
+	overflow: hidden;
+	font-size: 13px;
+}
